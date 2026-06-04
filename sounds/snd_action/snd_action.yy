@@ -1,0 +1,27 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_action",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.16,
+  "exportDir":"",
+  "name":"snd_action",
+  "parent":{
+    "name":"GuardioesDoFuturo",
+    "path":"GuardioesDoFuturo.yyp",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"1.0",
+  "sampleRate":44100,
+  "soundFile":"snd_action.wav",
+  "tags":[],
+  "volume":1.0,
+}

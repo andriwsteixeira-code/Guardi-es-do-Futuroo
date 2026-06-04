@@ -1,0 +1,27 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_music_ecochip",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":2,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":36.92,
+  "exportDir":"",
+  "name":"snd_music_ecochip",
+  "parent":{
+    "name":"GuardioesDoFuturo",
+    "path":"GuardioesDoFuturo.yyp",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"1.0",
+  "sampleRate":44100,
+  "soundFile":"snd_music_ecochip.wav",
+  "tags":[],
+  "volume":0.45,
+}

@@ -1,0 +1,27 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_fail",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.31,
+  "exportDir":"",
+  "name":"snd_fail",
+  "parent":{
+    "name":"GuardioesDoFuturo",
+    "path":"GuardioesDoFuturo.yyp",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"1.0",
+  "sampleRate":44100,
+  "soundFile":"snd_fail.wav",
+  "tags":[],
+  "volume":1.0,
+}

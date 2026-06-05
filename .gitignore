@@ -1,0 +1,22 @@
+# GameMaker generated/cache files
+.gmcache/
+.gmtemp/
+build/
+tmp/
+
+# Local IDE/editor state
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Runtime/package outputs
+*.win
+*.exe
+*.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini

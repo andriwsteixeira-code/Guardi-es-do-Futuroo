@@ -1,0 +1,535 @@
+{
+  "$GMProject": "v1",
+  "%Name": "GuardioesDoFuturo",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "v1",
+      "%Name": "audiogroup_default",
+      "exportDir": "",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default"
+  },
+  "defaultScriptType": 0,
+  "Folders": [],
+  "ForcedPrefabProjectReferences": [],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2024.14.4.222"
+  },
+  "name": "GuardioesDoFuturo",
+  "resources": [
+    {
+      "id": {
+        "name": "spr_tile_polluted_soil",
+        "path": "sprites/spr_tile_polluted_soil/spr_tile_polluted_soil.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_tile_recovered_soil",
+        "path": "sprites/spr_tile_recovered_soil/spr_tile_recovered_soil.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_tile_recovering_soil",
+        "path": "sprites/spr_tile_recovering_soil/spr_tile_recovering_soil.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_tile_polluted_water",
+        "path": "sprites/spr_tile_polluted_water/spr_tile_polluted_water.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_tile_clean_water",
+        "path": "sprites/spr_tile_clean_water/spr_tile_clean_water.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_tile_healthy_grass",
+        "path": "sprites/spr_tile_healthy_grass/spr_tile_healthy_grass.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_tile_dry_earth",
+        "path": "sprites/spr_tile_dry_earth/spr_tile_dry_earth.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_tile_forest",
+        "path": "sprites/spr_tile_forest/spr_tile_forest.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_tile_transition",
+        "path": "sprites/spr_tile_transition/spr_tile_transition.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_menu_background",
+        "path": "sprites/spr_menu_background/spr_menu_background.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_stage_forest_card",
+        "path": "sprites/spr_stage_forest_card/spr_stage_forest_card.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_stage_industrial_card",
+        "path": "sprites/spr_stage_industrial_card/spr_stage_industrial_card.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_stage_coast_card",
+        "path": "sprites/spr_stage_coast_card/spr_stage_coast_card.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_building_solar_panel",
+        "path": "sprites/spr_building_solar_panel/spr_building_solar_panel.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_building_wind_turbine",
+        "path": "sprites/spr_building_wind_turbine/spr_building_wind_turbine.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_building_recycling_station",
+        "path": "sprites/spr_building_recycling_station/spr_building_recycling_station.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_building_water_purifier",
+        "path": "sprites/spr_building_water_purifier/spr_building_water_purifier.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_building_ecology_lab",
+        "path": "sprites/spr_building_ecology_lab/spr_building_ecology_lab.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_building_clean_energy_station",
+        "path": "sprites/spr_building_clean_energy_station/spr_building_clean_energy_station.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_icon_energy",
+        "path": "sprites/spr_icon_energy/spr_icon_energy.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_icon_water",
+        "path": "sprites/spr_icon_water/spr_icon_water.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_icon_biodiversity",
+        "path": "sprites/spr_icon_biodiversity/spr_icon_biodiversity.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_icon_pollution",
+        "path": "sprites/spr_icon_pollution/spr_icon_pollution.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_icon_social",
+        "path": "sprites/spr_icon_social/spr_icon_social.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_icon_alert",
+        "path": "sprites/spr_icon_alert/spr_icon_alert.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_icon_turn",
+        "path": "sprites/spr_icon_turn/spr_icon_turn.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_icon_resources",
+        "path": "sprites/spr_icon_resources/spr_icon_resources.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_button_build",
+        "path": "sprites/spr_button_build/spr_button_build.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_button_recycle",
+        "path": "sprites/spr_button_recycle/spr_button_recycle.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_button_repair",
+        "path": "sprites/spr_button_repair/spr_button_repair.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_button_purify",
+        "path": "sprites/spr_button_purify/spr_button_purify.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_button_plant",
+        "path": "sprites/spr_button_plant/spr_button_plant.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_button_scan",
+        "path": "sprites/spr_button_scan/spr_button_scan.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_button_confirm",
+        "path": "sprites/spr_button_confirm/spr_button_confirm.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_button_cancel",
+        "path": "sprites/spr_button_cancel/spr_button_cancel.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_portrait_lira",
+        "path": "sprites/spr_portrait_lira/spr_portrait_lira.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_portrait_theo",
+        "path": "sprites/spr_portrait_theo/spr_portrait_theo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_portrait_aya",
+        "path": "sprites/spr_portrait_aya/spr_portrait_aya.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_portrait_magnus",
+        "path": "sprites/spr_portrait_magnus/spr_portrait_magnus.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_effect_toxic_smoke",
+        "path": "sprites/spr_effect_toxic_smoke/spr_effect_toxic_smoke.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_effect_ecology_glow",
+        "path": "sprites/spr_effect_ecology_glow/spr_effect_ecology_glow.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_effect_green_particles",
+        "path": "sprites/spr_effect_green_particles/spr_effect_green_particles.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_effect_clean_energy",
+        "path": "sprites/spr_effect_clean_energy/spr_effect_clean_energy.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_effect_toxic_spill",
+        "path": "sprites/spr_effect_toxic_spill/spr_effect_toxic_spill.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "spr_effect_water_purification",
+        "path": "sprites/spr_effect_water_purification/spr_effect_water_purification.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_action",
+        "path": "sounds/snd_action/snd_action.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_event",
+        "path": "sounds/snd_event/snd_event.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_success",
+        "path": "sounds/snd_success/snd_success.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_fail",
+        "path": "sounds/snd_fail/snd_fail.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_music_ecochip",
+        "path": "sounds/snd_music_ecochip/snd_music_ecochip.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_apply_action",
+        "path": "scripts/scr_apply_action/scr_apply_action.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_update_resources",
+        "path": "scripts/scr_update_resources/scr_update_resources.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_check_victory",
+        "path": "scripts/scr_check_victory/scr_check_victory.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_check_defeat",
+        "path": "scripts/scr_check_defeat/scr_check_defeat.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_next_turn",
+        "path": "scripts/scr_next_turn/scr_next_turn.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_spawn_event",
+        "path": "scripts/scr_spawn_event/scr_spawn_event.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_update_tile_state",
+        "path": "scripts/scr_update_tile_state/scr_update_tile_state.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_show_tooltip",
+        "path": "scripts/scr_show_tooltip/scr_show_tooltip.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_init_stage",
+        "path": "scripts/scr_init_stage/scr_init_stage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_make_report",
+        "path": "scripts/scr_make_report/scr_make_report.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_run_self_tests",
+        "path": "scripts/scr_run_self_tests/scr_run_self_tests.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_game_controller",
+        "path": "objects/obj_game_controller/obj_game_controller.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_tile",
+        "path": "objects/obj_tile/obj_tile.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_hud",
+        "path": "objects/obj_hud/obj_hud.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_button_action",
+        "path": "objects/obj_button_action/obj_button_action.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_event_manager",
+        "path": "objects/obj_event_manager/obj_event_manager.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_dialogue_manager",
+        "path": "objects/obj_dialogue_manager/obj_dialogue_manager.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "obj_resource_manager",
+        "path": "objects/obj_resource_manager/obj_resource_manager.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_menu",
+        "path": "rooms/rm_menu/rm_menu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_stage_select",
+        "path": "rooms/rm_stage_select/rm_stage_select.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_game",
+        "path": "rooms/rm_game/rm_game.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_victory",
+        "path": "rooms/rm_victory/rm_victory.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_defeat",
+        "path": "rooms/rm_defeat/rm_defeat.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "rm_report",
+        "path": "rooms/rm_report/rm_report.yy"
+      }
+    }
+  ],
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    {
+      "roomId": {
+        "name": "rm_menu",
+        "path": "rooms/rm_menu/rm_menu.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_stage_select",
+        "path": "rooms/rm_stage_select/rm_stage_select.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_game",
+        "path": "rooms/rm_game/rm_game.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_victory",
+        "path": "rooms/rm_victory/rm_victory.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_defeat",
+        "path": "rooms/rm_defeat/rm_defeat.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rm_report",
+        "path": "rooms/rm_report/rm_report.yy"
+      }
+    }
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
+}
